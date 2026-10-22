@@ -1,0 +1,45 @@
+# Portfolio metadata. Your portfolio site reads this file.
+# Validate by running /portfolio-sync (plugin: github.com/livscheck/portfolio-sync)
+
+# --- Required -------------------------------------------------------------
+title: cutiE Hair Clip
+slug: cutie-hair-clip
+tagline: A hair clip with a tiny screen that cycles through Claude Code's spinner words
+type: embedded                      # web | mobile | ai | embedded
+status: development                 # TODO verify: concept | planning | design | development | launched | maintenance | archived | other
+
+stack:
+  languages: [C++]
+  frameworks: [Arduino, ESP-IDF esp_lcd]
+  tools: [Arduino IDE, TFT_eSPI, Python]   # TODO verify: Python is for tools/make_font.py, which isn't in the repo yet
+
+media:
+  hero: media/hero.gif              # TODO add: 10–20s clip of the clip being worn, ticker running
+  hero_alt: Pink "✻ Pondering…" scrolling across a small screen mounted on a hair clip
+  gallery: media/gallery/
+
+# --- Optional -------------------------------------------------------------
+published: false
+featured: false
+date_start: "10/04/2026"            # concept note created
+date_end: null
+last_updated: "10/12/2026"          # TODO verify: last time the sketches were edited
+tags: [wearable, fashion, display]
+
+links:
+  repo: null                        # TODO add once the GitHub repo exists
+  demo: null
+  video: null
+  writeup: null
+
+# --- Embedded / IoT -------------------------------------------------------
+hardware:
+  boards: [LilyGo T-Display-S3 (ESP32-S3R8)]
+  sensors: [1.9" ST7789 LCD (170x320, 8-bit parallel)]
+  protocols: [8-bit parallel LCD bus]
+  power: 3.7 V LiPo, 500–750 mAh planned   # TODO verify: which cell you used, and measured runtime
+  firmware: firmware/
+  schematic: null
+  wiring: null
+  bom: null
+  pcb: null

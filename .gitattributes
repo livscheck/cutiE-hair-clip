@@ -1,0 +1,4 @@
+# Large media through Git LFS (run `git lfs install` once per machine)
+*.mp4  filter=lfs diff=lfs merge=lfs -text
+*.mov  filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
