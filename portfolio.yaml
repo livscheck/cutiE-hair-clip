@@ -27,7 +27,7 @@ last_updated: "10/12/2026"          # TODO verify: last time the sketches were e
 tags: [wearable, fashion, display]
 
 links:
-  repo: null                        # TODO add once the GitHub repo exists
+  repo: https://github.com/livscheck/cutiE-hair-clip
   demo: null
   video: null
   writeup: null
